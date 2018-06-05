@@ -7,12 +7,28 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>home</ion-title>
+    <ion-title>Home</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
-<button block (onclick)=""
+<ion-content>
+
+  <ion-card>
+  <img src="../../assets/imgs/bg.jpg"/>
+  <ion-card-content>
+    <ion-card-title>
+      PS Air Solutions
+      </ion-card-title>
+    <p>
+      The most popular industrial group ever, and largely
+      responsible for bringing the music to a mass audience.
+    </p>
+    <button (click)="goTologin()" ion-button>
+         login
+       </button>
+  </ion-card-content>
+</ion-card>
+
 </ion-content>
